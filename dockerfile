@@ -10,7 +10,7 @@ RUN apt-get install -y net-tools
 
 RUN apt-get install -y openssh-server
 
-RUN apt-get install -y python python-pip
+RUN apt-get install -y python
 
 RUN apt-get update
 
